@@ -56,7 +56,7 @@ $enable-shadows: true;
 }
 
 
-//Reutilize other classes styles in a new class using @extend
+//Reuse other classes styles in a new class using @extend
 .centered{
   @extend .d-flex;
   @extend .justify-content-center;
