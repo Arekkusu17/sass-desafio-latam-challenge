@@ -2,7 +2,7 @@
 
 The meaning of this challenge is to validate Sass knowledge applying styles to improve and make faster the design of a web.
 
-Site of deploy: https://arekkusu17.github.io//
+Site of deploy: https://arekkusu17.github.io/sass-desafio-latam-challenge/
 ## Work Done
 - Write the html structure and use the card class from bootstrap.
 All the Sass and Bootstrap changes are in the custom.scss file.    
