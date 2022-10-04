@@ -61,3 +61,18 @@ $enable-shadows: true;
 }
   
 
+// new mixin
+@mixin btn($bg-color,$color){
+  background-color: $bg-color;
+  color: $color; 
+  @extend .p-2;
+  border: none;
+  border-radius: 5px;
+  &:hover {
+  opacity: 0.8;
+  } 
+}
+
+.btn-purple{
+  @include btn($purple,$white)
+}

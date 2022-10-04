@@ -7854,7 +7854,7 @@ textarea.form-control-lg {
   padding: 0.25rem !important;
 }
 
-.p-2 {
+.p-2, .btn-purple {
   padding: 0.5rem !important;
 }
 
@@ -10989,6 +10989,16 @@ textarea.form-control-lg {
 .card-black {
   background: rgb(31, 31, 31);
   color: white;
+}
+
+.btn-purple {
+  background-color: #cf649a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+.btn-purple:hover {
+  opacity: 0.8;
 }
 
 /*# sourceMappingURL=custom.css.map */
