@@ -1,0 +1,63 @@
+// Import Google Font
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+// Change the base font of.
+$font-family-base: 'Dancing Script', cursive;
+
+// Initialize the colors, they will be applied to Bootstrap
+$primary: #0dcaf0;
+$secondary: #6c757d;
+$success: #198754;
+$info: #0dcaf0;
+$warning: #ffc107;
+$danger: #dc3545;
+$light: #f8f9fa;
+$dark: #212529;
+//new variables for custom colors
+$purple:#cf649a;
+$pastel-pink:#ebc3ec;
+
+
+// $theme-colors is the main palette of Bootstrap, using this you can add your own colors and they will be available for styling
+//for example bg-new-color text-new-color etc.
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark,
+  // new theme-colors
+  "purple":     $purple,
+  "pastel":     $pastel-pink
+);
+
+//  Enable some extra features.
+$enable-shadows: true;
+
+// Import all the sass from bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+// Clases personalizadas
+.bg-indigo {
+    background: $indigo-900;
+}
+
+// Ej: para utilzar el @extend
+.card-black {
+    @extend .card;   
+    background: rgb(31, 31, 31);
+    color: white;
+}
+
+
+//Reutilize other classes styles in a new class using @extend
+.centered{
+  @extend .d-flex;
+  @extend .justify-content-center;
+  @extend .align-items-center;
+  @extend .vh-100;
+}
+  
+
