@@ -44,6 +44,10 @@ $enable-shadows: true;
     background: $indigo-900;
 }
 
+.brightness{
+  box-shadow: 0 1rem 5rem 11px rgba(255, 255, 255, 0.874)
+}
+
 // Ej: para utilzar el @extend
 .card-black {
     @extend .card;   

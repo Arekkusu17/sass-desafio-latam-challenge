@@ -10986,6 +10986,10 @@ textarea.form-control-lg {
   background: #140330;
 }
 
+.brightness {
+  box-shadow: 0 1rem 5rem 11px rgba(255, 255, 255, 0.874);
+}
+
 .card-black {
   background: rgb(31, 31, 31);
   color: white;
